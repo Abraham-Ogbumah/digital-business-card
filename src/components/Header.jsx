@@ -1,5 +1,4 @@
 import React from "react";
-import Abraham from "./Abraham.jpeg"
 import abraham from "./abraham.png"
 
 function Header() {
