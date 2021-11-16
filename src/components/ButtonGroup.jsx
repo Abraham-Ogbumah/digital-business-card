@@ -6,17 +6,21 @@ import { FaLinkedin } from 'react-icons/fa';
 function ButtonGroup() {
     return (
         <div className="bgGroup">
-            <Button
-                cname="button-white"
-                icon={<FaEnvelope />}
-                text="Email"
-            />
+            <a href="mailto:ab.ogbumah@gmail.com" className="emailBTN">
+                <Button
+                    cname="button-white"
+                    icon={<FaEnvelope />}
+                    text="Email"
+                />
+            </a>
             
-            <Button
-            cname="button-blue"
-            icon={<FaLinkedin />}
-            text="LinkedIn"    
-            />
+            <a href="https://www.linkedin.com/feed/" className="linkedInBTN">
+                <Button
+                cname="button-blue"z
+                icon={<FaLinkedin />}
+                text="LinkedIn"    
+                />
+            </a>
         </div>
     )
 }

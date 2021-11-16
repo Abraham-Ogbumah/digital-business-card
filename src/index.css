@@ -165,3 +165,8 @@ body {
 .icon {
   font-size: 24px;
 }
+
+.bgGroup a {
+  text-decoration: none;
+  color: #000;
+}
